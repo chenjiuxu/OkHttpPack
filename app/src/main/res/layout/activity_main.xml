@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="chenjiuxu.okhttppack.MainActivity">
+
+    <TextView
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="同步get"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="异步get"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="异步get文件下载"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="异步post json反序列化"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/bt5"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="文件上传"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
